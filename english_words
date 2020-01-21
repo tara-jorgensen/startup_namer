@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-26406144-13"></script>
+  <script src="/static/js/gtag.js?hash=kjb50t624ecqkbe6v0qfurhg4hl8j76c"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@dart_lang" />
+  <meta property="og:site_name" content="Dart packages" />
+  <title>english_words | Dart Package</title>
+  <meta property="og:title" content="english_words | Dart Package" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" />
+  <meta content="/static/img/dart-logo-400x400.png?hash=i18bc8g4aa2r6vf85lpgro6ml5ltd13g" />
+  <meta property="og:image" content="/static/img/dart-logo-400x400.png?hash=i18bc8g4aa2r6vf85lpgro6ml5ltd13g" />
+  <link rel="shortcut icon" href="/favicon.ico?hash=nk4nss8c7444fg0chird9erqef2vkhb8" />
+  <link rel="search" type="application/opensearchdescription+xml" title="Dart packages" href="/static/osd.xml?hash=uhkvaq6tn5ujmk0so48em6cukeb08c2d" />
+  <meta name="description" content="Utilities for working with English words. Counts syllables, generates well-sounding word combinations, and provides access to the top 5000 English words by usage.
+" />
+  <meta property="og:description" content="Utilities for working with English words. Counts syllables, generates well-sounding word combinations, and provides access to the top 5000 English words by usage.
+" />
+  <link rel="alternate" type="application/atom+xml" title="Updated Packages Feed for Pub" href="/feed.atom" />
+  <link href="/static/material/material-components-web.min.css?hash=p08d4642n883220v3sav33212io7mf4p" rel="stylesheet" type="text/css" />
+  <link href="/static/highlight/github.css?hash=ddjqjhh3o6fcmi9g9no3i3id8s23itod" rel="stylesheet" />
+  <link href="/static/css/github-markdown.css?hash=t2ti0tfkd3q7dsh5njovil42c3bnhf5s" rel="stylesheet" type="text/css" />
+  <link href="/static/css/style.css?hash=2do5n7v2ifr1lo7e18q3tf7u9ivoeess" rel="stylesheet" type="text/css" />
+  <script src="/static/material/material-components-web.min.js?hash=igi6ia9p8nu341u56joei27dp56mljuv" defer="defer"></script>
+  <script src="/static/js/script.dart.js?hash=l7tb5d02u8h813d04jg320lkeqilq9fa" defer="defer"></script>
+  <script async="async" defer="defer" src="//www.google.com/insights/consumersurveys/async_survey?site=5wdvu4vc5lhop3xbatxof6lzcm"></script>
+  <meta name="google-signin-client_id" content="818368855108-e8skaopm5ih5nbb82vhh66k7ft5o7dn3.apps.googleusercontent.com" />
+  <script src="https://apis.google.com/js/platform.js?onload=pubAuthInit" defer="defer"></script>
+  <meta name="pub-page-data" content="eyJwa2dEYXRhIjp7InBhY2thZ2UiOiJlbmdsaXNoX3dvcmRzIiwidmVyc2lvbiI6IjMuMS41IiwibGlrZXMiOjgsImlzRGlzY29udGludWVkIjpmYWxzZX19"/>
+</head>
+<body class="">
+<header class="site-header-row">
+  <div class="container site-header">
+    <h1 class="_visuallyhidden">Dart pub</h1>
+    <button class="hamburger"></button>
+    <div class="mask"></div>
+    <div class="nav-wrap">
+      <div class="nav-header"><a class="logo" href="/"><img src="/static/img/pub-dev-logo-2x.png?hash=umitaheu8hl7gd3mineshk2koqfngugi" alt="dart pub logo" /></a>
+        <div class="_flex-space"></div>
+        <button class="close"></button>
+      </div>
+      <nav class="site-nav">
+        <span>Getting Started:</span>
+        <div class="sub-wrap hoverable">
+          <button class="button">Flutter</button>
+          <div class="sub-nav">
+            <a class="link" target="_blank" rel="noopener" href="https://flutter.io/using-packages/">Using packages</a>
+            <a class="link" target="_blank" rel="noopener" href="https://flutter.io/developing-packages/">Developing packages and plugins</a>
+            <a class="link" target="_blank" rel="noopener" href="https://dart.dev/tools/pub/publishing">Publishing a package</a>
+            <a class="link" target="_blank" rel="noopener" href="https://dart.dev/tools/pub">Pub tool</a>
+          </div>
+        </div>
+        <div class="sub-wrap hoverable">
+          <button class="button">Web &amp; Server</button>
+          <div class="sub-nav">
+            <a class="link" target="_blank" rel="noopener" href="https://dart.dev/tools/pub/get-started">Using packages</a>
+            <a class="link" target="_blank" rel="noopener" href="https://dart.dev/tools/pub/publishing">Publishing a package</a>
+            <a class="link" target="_blank" rel="noopener" href="https://dart.dev/tools/pub">Pub tool</a>
+          </div>
+        </div>
+      </nav>
+      <div>&nbsp;</div>
+    </div>
+    <div id="account-nav">
+      <a id="-account-login" class="link">Sign in</a>
+    </div>
+  </div>
+</header>
+
+
+<div class="_banner-bg">
+  <div class="container">
+
+
+  
+<form class="search-bar banner-item" action="/flutter/packages">
+  <input class="input" name="q" placeholder="Search Flutter packages" autocomplete="on" autofocus="autofocus"/>
+  <button class="icon"></button>
+</form>
+
+
+  </div>
+</div>
+
+<div class="container">
+  <main>
+    
+
+<div class="detail-header">
+  <h2 class="title">english_words 3.1.5</h2>
+  <div class="metadata">
+    
+Published <span>Nov 21, 2018</span>
+<!-- &bull; Downloads: X -->
+
+    <div class="-pub-likes" >
+      <div>
+        <button
+          id="-pub-like-icon-button"
+          class="mdc-icon-button"
+          aria-label="Like this package"
+          aria-hidden="true"
+          aria-pressed="true">
+          <img
+            height="18"
+            src="/static/img/thumb-up-24px.svg?hash=or37tkhsj8cr1btn6u43rg5vl7877mn3"
+            class="mdc-icon-button__icon"/>
+          <img
+            height="18"
+            width="18"
+            src="/static/img/thumb-up-filled-24px.svg?hash=8kgmdljebltkcgrhvp9t0hlm2nlm1fui"
+            class="mdc-icon-button__icon mdc-icon-button__icon--on"/>
+        </button>
+       <span id="likes-count">8 likes</span></div></div>
+    <div class="tags">  <div class="-pub-tag-badge"><div title="Packages compatible with Dart SDK">dart</div><div title="Packages compatible with Dart running on a native platform (JIT&#x2F;AOT)">native</div><div title="Packages compatible with Dart compiled for the web">js</div></div>
+  <div class="-pub-tag-badge"><div title="Packages compatible with Flutter SDK">flutter</div><div title="Packages compatible with Flutter on the Android platform">android</div><div title="Packages compatible with Flutter on the iOS platform">ios</div><div title="Packages compatible with Flutter on the Web platform">web</div></div>
+</div>
+ </div></div>
+
+
+<div class="detail-container">
+  <ul class="detail-tabs-header">
+    <li class="tab-button -active" data-name="-readme-tab-" role="button">Readme</li>
+    <li class="tab-button" data-name="-changelog-tab-" role="button">Changelog</li>
+    <li class="tab-button" data-name="-example-tab-" role="button">Example</li>
+    <li class="tab-button" data-name="-installing-tab-" role="button">Installing</li>
+    <li class="tab-link" data-name="-versions-tab-" role="button"><a href="/packages/english_words/versions">Versions</a></li>
+    <li class="tab-button" data-name="-analysis-tab-" role="button"><div class="score-box"><span class="number -solid" title="Analysis and more details.">96</span></div></li>
+</ul>
+<div class="main detail-tabs-content">
+    <section class="tab-content -active markdown-body" data-name="-readme-tab-">
+      <h1 class="hash-header" id="english_words">english_words <a href="#english_words" class="hash-link">#</a></h1>
+<p><a href="https://travis-ci.org/filiph/english_words"><img src="https://travis-ci.org/filiph/english_words.svg" alt="Build status" /></a></p>
+<p>A package containing the most ~5000 used English words and some utility
+functions.</p>
+<h2 class="hash-header" id="usage">Usage <a href="#usage" class="hash-link">#</a></h2>
+<p>Printing the top 50 most used nouns in the English language:</p>
+<pre><code>import 'package:english_words/english_words.dart';
+
+main() {
+  nouns.take(50).forEach(print);
+}
+</code></pre>
+<p>Computing number of syllables in a word:</p>
+<pre><code>syllables('beautiful');  // 3
+syllables('abatement');  // 3
+syllables('zoology');  // 4
+</code></pre>
+<p>Generating 5 interesting 2-syllable word combinations:</p>
+<pre><code>generateWordPairs().take(5).forEach(print);
+</code></pre>
+<h2 class="hash-header" id="features-and-bugs">Features and bugs <a href="#features-and-bugs" class="hash-link">#</a></h2>
+<p>Please file feature requests and bugs at the <a href="https://github.com/filiph/english_words/issues">issue tracker</a>.</p>
+
+    </section>
+    <section class="tab-content markdown-body" data-name="-changelog-tab-">
+      <h2 class="hash-header" id="315">3.1.5 <a href="#315" class="hash-link">#</a></h2>
+<ul>
+<li>Remove optional <code>new</code> and <code>const</code></li>
+</ul>
+<h2 class="hash-header" id="314">3.1.4 <a href="#314" class="hash-link">#</a></h2>
+<ul>
+<li>Bug fix: Remove duplicates from <code>all</code></li>
+</ul>
+<h2 class="hash-header" id="313">3.1.3 <a href="#313" class="hash-link">#</a></h2>
+<ul>
+<li>Update dependency of <code>pkg:test</code> to 1.0</li>
+</ul>
+<h2 class="hash-header" id="311">3.1.1 <a href="#311" class="hash-link">#</a></h2>
+<ul>
+<li>Allow Dart 2</li>
+</ul>
+<h2 class="hash-header" id="310">3.1.0 <a href="#310" class="hash-link">#</a></h2>
+<ul>
+<li>Allow injecting <code>Random</code> to <code>generateWordPairs()</code></li>
+<li>Add <code>WordPair.random()</code> constructor for easier creation of a single
+word combo</li>
+</ul>
+<h2 class="hash-header" id="301">3.0.1 <a href="#301" class="hash-link">#</a></h2>
+<ul>
+<li>Fix bug that made an unsafe word get generated despite ban</li>
+</ul>
+<h2 class="hash-header" id="300">3.0.0 <a href="#300" class="hash-link">#</a></h2>
+<ul>
+<li>BREAKING: <code>WordPair</code> constructor is no longer <code>const</code></li>
+<li>BREAKING: <code>WordPair</code> will reject words that are <code>null</code> or empty</li>
+<li>Add <code>.asCamelCase</code>, <code>.asPascalCase</code>, <code>.asLowerCase</code> and <code>.asUpperCase</code> getters
+to <code>WordPair</code>. These are memoized, so they're faster to access.</li>
+<li>Add 'sex' to unsafe words</li>
+<li>Stricter strong mode turned on</li>
+<li>Lints resolved</li>
+</ul>
+<h2 class="hash-header" id="204">2.0.4 <a href="#204" class="hash-link">#</a></h2>
+<ul>
+<li>Make <code>generateWordPairs</code> 10-20x faster for the most common use case 
+(i.e. running the function with all named parameters at default values).</li>
+</ul>
+<h2 class="hash-header" id="203">2.0.3 <a href="#203" class="hash-link">#</a></h2>
+<ul>
+<li>Add 'rape' to unsafe words</li>
+</ul>
+<h2 class="hash-header" id="202">2.0.2 <a href="#202" class="hash-link">#</a></h2>
+<ul>
+<li>Add 'AIDS' to unsafe words</li>
+</ul>
+<h2 class="hash-header" id="201">2.0.1 <a href="#201" class="hash-link">#</a></h2>
+<ul>
+<li>Update README with refactor to <code>generateWordPairs</code></li>
+</ul>
+<h2 class="hash-header" id="200">2.0.0 <a href="#200" class="hash-link">#</a></h2>
+<ul>
+<li>The <code>generateCombo()</code> function has been renamed to <code>generateWordPairs()</code></li>
+<li><code>generateWordPairs()</code> takes a <code>safeOnly</code> named argument. If set to 
+<code>true</code> (default), it will avoid wordpairs like "ballsack" or anything 
+containing "ass", "shit", "fucking", etc.</li>
+<li>Add benchmark for <code>GenerateWordPair()</code></li>
+<li>Add exception for "cruel"</li>
+</ul>
+<h2 class="hash-header" id="112">1.1.2 <a href="#112" class="hash-link">#</a></h2>
+<ul>
+<li>Fix exceptions like "poet" and "conscious"</li>
+</ul>
+<h2 class="hash-header" id="111">1.1.1 <a href="#111" class="hash-link">#</a></h2>
+<ul>
+<li>Fix words like "dying" and "flying" to be disyllabic</li>
+</ul>
+<h2 class="hash-header" id="110">1.1.0 <a href="#110" class="hash-link">#</a></h2>
+<ul>
+<li>Use <code>string_scanner</code> instead of RegExp replace for most syllable counting</li>
+<li>400% faster syllable counting</li>
+</ul>
+<h2 class="hash-header" id="100">1.0.0 <a href="#100" class="hash-link">#</a></h2>
+<ul>
+<li>Make the <code>syllables()</code> function work on 99+% cases</li>
+<li>semver guarantee</li>
+</ul>
+<h2 class="hash-header" id="001">0.0.1 <a href="#001" class="hash-link">#</a></h2>
+<ul>
+<li>Initial version</li>
+</ul>
+
+    </section>
+    <section class="tab-content markdown-body" data-name="-example-tab-">
+      <p style="font-family: monospace"><b><a href="https://github.com/filiph/english_words/blob/master/example/english_words_example.dart" target="_blank" rel="noopener noreferrer nofollow">example&#47;english_words_example.dart</a></b></p>
+<pre><code class="language-dart">// Copyright (c) 2017, filiph. All rights reserved. Use of this source code
+// is governed by a BSD-style license that can be found in the LICENSE file.
+
+import 'package:english_words/english_words.dart';
+
+void main() {
+  generateWordPairs().forEach(print);
+}
+</code></pre>
+
+    </section>
+    <section class="tab-content" data-name="-installing-tab-">
+      <h2>Use this package as a library</h2>
+<h3>1. Depend on it</h3>
+<p>Add this to your package's pubspec.yaml file:</p>
+<pre><code class="language-yaml">
+dependencies:
+  <strong>english_words: ^3.1.5</strong>
+
+</code></pre>
+<h3>2. Install it</h3>
+<p>You can install packages from the command line:</p>
+  <p>with pub:</p>
+  <pre><code class="language-shell">
+$ <strong>pub get</strong>
+
+</code></pre>
+  <p>with Flutter:</p>
+  <pre><code class="language-shell">
+$ <strong>flutter pub get</strong>
+
+</code></pre>
+<p>Alternatively, your editor might support <code>pub get</code> or <code>flutter pub get</code>.
+  Check the docs for your editor to learn more.</p>
+  <h3>3. Import it</h3>
+  <p>Now in your Dart code, you can use:
+  </p>
+  <pre><code class="language-dart">
+import 'package:english_words/english_words.dart';
+  </code></pre>
+
+    </section>
+    <section class="tab-content" data-name="-analysis-tab-">
+      <table id='scores-table'>
+  <tr>
+    <td class="score-name">
+      <div class="tooltip-base hoverable">
+        <span class="tooltip-dotted">Popularity:</span>
+        <div class="tooltip-content">
+          Describes how popular the package is relative to other packages.
+          <a href="/help#popularity">[more]</a>
+        </div>
+      </div>
+    </td>
+    <td class="score-value">
+      
+<div class="score-percent-row">
+    <div class="score-percent" style="left: 99%;">99</div>
+</div>
+
+<div class="score-progress-row">
+    <div class="score-progress-frame">
+        <div class="score-progress" style="width: 99%; background: rgb(192, 192, 192);"></div>
+    </div>
+</div>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="score-name">
+      <div class="tooltip-base hoverable">
+        <span class="tooltip-dotted">Health:</span>
+        <div class="tooltip-content">
+          Code health derived from static analysis.
+          <a href="/help#health">[more]</a>
+        </div>
+      </div>
+    </td>
+    <td class="score-value">
+<div class="score-percent-row">
+    <div class="score-percent" style="left: 100%;">100</div>
+</div>
+
+<div class="score-progress-row">
+    <div class="score-progress-frame">
+        <div class="score-progress" style="width: 100%; background: rgb(192, 192, 192);"></div>
+    </div>
+</div>
+</td>
+  </tr>
+  <tr>
+    <td class="score-name">
+      <div class="tooltip-base hoverable">
+        <span class="tooltip-dotted">Maintenance:</span>
+        <div class="tooltip-content">
+          Reflects how tidy and up-to-date the package is.
+          <a href="/help#maintenance">[more]</a>
+        </div>
+      </div>
+    </td>
+    <td class="score-value">
+<div class="score-percent-row">
+    <div class="score-percent" style="left: 84%;">84</div>
+</div>
+
+<div class="score-progress-row">
+    <div class="score-progress-frame">
+        <div class="score-progress" style="width: 84%; background: rgb(179, 182, 184);"></div>
+    </div>
+</div>
+</td>
+  </tr>
+  <tr>
+    <td class="score-name">
+      <div class="tooltip-base hoverable">
+        <span class="tooltip-dotted"><b>Overall:</b></span>
+        <div class="tooltip-content">
+          Weighted score of the above.
+          <a href="/help#overall-score">[more]</a>
+        </div>
+      </div>
+    </td>
+    <td>
+<div class="score-percent-row">
+    <div class="score-percent" style="left: 96%;">96</div>
+</div>
+
+<div class="score-progress-row">
+    <div class="score-progress-frame">
+        <div class="score-progress" style="width: 96%; background: rgb(1, 117, 194);"></div>
+    </div>
+</div>
+</td>
+  </tr>
+</table>
+
+<div style="text-align: right; font-size: 10pt;">Learn more about <a href="/help#scoring">scoring</a>.</div>
+
+<hr />
+
+<p>
+  We analyzed this package on Jan 20, 2020, and provided a score, details, and suggestions below.
+  Analysis was completed with status <i>completed</i> using:
+</p>
+
+<ul>
+  <li>Dart: 2.7.0</li>
+  <li>pana: 0.13.4</li>
+
+</ul>
+
+
+
+<h4>Maintenance suggestions</h4>
+<div class="suggestion-row">
+  <div class="suggestion-title">
+    <span class="suggestion-icon-info"></span>
+    <p>Package is getting outdated. (-16.16 points)</p>
+
+  </div>
+  <div class="suggestion-description">
+    <p>The package was last published 60 weeks ago.</p>
+
+    
+  </div>
+</div>
+
+
+<h4>Dependencies</h4>
+<div class="overflow-x">
+<table class="dependency-table">
+  <tr>
+    <th>Package</th>
+    <th>Constraint</th>
+    <th>Resolved</th>
+    <th>Available</th>
+  </tr>
+  <tr>
+    <th colspan="4" class="sub-header">Direct dependencies</th>
+  </tr>
+  <tr>
+    <td>Dart SDK</td>
+    <td>&gt;=1.22.0 &lt;3.0.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/packages/string_scanner">string_scanner</a></td>
+    <td>^1.0.1</td>
+    <td>1.0.5</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <th colspan="4" class="sub-header">Transitive dependencies</th>
+  </tr>
+  <tr>
+    <td><a href="/packages/charcode">charcode</a></td>
+    <td></td>
+    <td>1.1.2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/packages/collection">collection</a></td>
+    <td></td>
+    <td>1.14.12</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/packages/meta">meta</a></td>
+    <td></td>
+    <td>1.1.8</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/packages/path">path</a></td>
+    <td></td>
+    <td>1.6.4</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/packages/source_span">source_span</a></td>
+    <td></td>
+    <td>1.6.0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/packages/term_glyph">term_glyph</a></td>
+    <td></td>
+    <td>1.1.0</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <th colspan="4" class="sub-header">Dev dependencies</th>
+  </tr>
+  <tr>
+    <td><a href="/packages/benchmark_harness">benchmark_harness</a></td>
+    <td>^1.0.4</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/packages/test">test</a></td>
+    <td>^1.0.0</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</table>
+</div>
+
+    </section>
+</div>
+
+  <aside class="detail-info-box">
+  
+
+<h3 class="title">About</h3>
+  <p>Utilities for working with English words. Counts syllables, generates well-sounding word combinations, and provides access to the top 5000 English words by usage.
+</p>
+<p>
+  <a class="link" href="https://github.com/filiph/english_words">Repository (GitHub)</a><br/>
+  <a class="link" href="https://github.com/filiph/english_words/issues">View&#x2F;report issues</a><br/>
+  <a class="link" href="/documentation/english_words/latest/">API reference</a><br/>
+</p>
+
+<h3 class="title">Uploader</h3>
+<p><span class="author"><a href="mailto:filip.hracek@gmail.com" title="Email filip.hracek@gmail.com"><i class="email-icon"></i></a> <a href="/packages?q=email%3Afilip.hracek%40gmail.com" title="Search packages with filip.hracek@gmail.com" rel="nofollow"><i class="search-icon"></i></a> filip.hracek@gmail.com</span></p>
+
+<h3 class="title">License</h3>
+<p>MIT (<a href="https://github.com/filiph/english_words/blob/master/LICENSE">LICENSE</a>)</p>
+
+<h3 class="title">Dependencies</h3>
+<p><a href="/packages/string_scanner">string_scanner</a></p>
+
+<h3 class="title">More</h3>
+<p><a href="/packages?q=dependency%3Aenglish_words" rel="nofollow">Packages that depend on english_words</a></p>
+
+  </aside>
+</div>
+
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"SoftwareSourceCode","name":"english_words","version":"3.1.5","description":"english_words - Utilities for working with English words. Counts syllables, generates well-sounding word combinations, and provides access to the top 5000 English words by usage.\n","url":"https://pub.dev/packages/english_words","dateCreated":"2017-03-07T01:21:06.427Z","dateModified":"2018-11-21T17:49:37.064747Z","programmingLanguage":"Dart","image":"https://pub.dev/static/img/dart-logo-400x400.png","license":"https://github.com/filiph/english_words/blob/master/LICENSE"}
+</script>
+
+
+  </main>
+</div>
+
+<footer class="site-footer">
+  <a class="link" href="https://dart.dev/">Dart language</a>
+  <a class="link sep" href="https://www.google.com/intl/en/policies/terms/">Terms</a>
+  <a class="link sep" href="https://www.google.com/intl/en/policies/privacy/">Privacy</a>
+  <a class="link sep" href="/help">Help</a>
+  <a class="link sep" href="/security">Security</a>
+  <a class="link sep icon" href="/feed.atom">
+    <img src="/static/img/atom-feed-icon-32x32.png?hash=6pve899f2ui9t0d7lnd9ljnh498u13b4" class="inline-icon" alt="RSS/atom feed" title="RSS/atom feed"/>
+  </a>
+  <a class="link icon github_issue" href="https://github.com/dart-lang/pub-dev/issues/new">
+    <img src="/static/img/bug-report-white-96px.png?hash=c47ejrlqq8ag0bnr78qa70vce3gf91k7" class="inline-icon" alt="Report an issue with this site" title="Report an issue with this site"/>
+  </a>
+</footer>
+<script src="/static/highlight/highlight.pack.js?hash=0i8a7vjqceqnmle26jmdvjpmu0ub1365"></script>
+<script src="/static/highlight/init.js?hash=0nl9tmdd9v9m0tfg7agjjb8epq8krqp6"></script>
+</body>
+</html>
